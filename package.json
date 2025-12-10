@@ -1,4 +1,3 @@
-json
 {
   "name": "jchan-engine",
   "version": "1.0.0",
@@ -6,7 +5,6 @@ json
   "main": "api/index.js",
   "scripts": {
     "start": "node api/index.js",
-    "dev": "nodemon api/index.js",
     "test": "echo \"Error: no tests specified\" && exit 1"
   },
   "dependencies": {
@@ -17,12 +15,7 @@ json
     "cors": "^2.8.5",
     "dotenv": "^16.3.1"
   },
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  },
   "engines": {
     "node": ">=18.0.0"
   }
 }
-
-</html>

@@ -12,7 +12,7 @@
       "dest": "api/index.js"
     },
     {
-      "src": "/", // Nova regra para a raiz
+      "src": "/",
       "dest": "public/index.html"
     },
     {
@@ -20,4 +20,5 @@
       "dest": "public/$1"
     }
   ]
+}
 }
